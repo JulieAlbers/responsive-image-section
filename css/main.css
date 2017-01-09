@@ -6,8 +6,40 @@
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #e2e2e2;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+.text {
+  padding: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #555;
+  padding:0.5em 0.75em;
+  border-radius: 4px;
 }
