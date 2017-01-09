@@ -25,16 +25,17 @@ body {
 img {
   width: 100%;
 }
+
 .text {
   padding: 1rem;
 }
 
-p {
+.text p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.btn {
+a {
   display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
@@ -42,4 +43,45 @@ p {
   background-color: #555;
   padding:0.5em 0.75em;
   border-radius: 4px;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  .img-flex {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .text {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 }
